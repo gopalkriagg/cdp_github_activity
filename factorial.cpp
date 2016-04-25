@@ -5,7 +5,7 @@ int factorial(int n){
 	return(n * factorial(n-1));
     }
     else if (n < 0)
-    	return -1;
+    	printf("Factorial of negative number is not defined\n");
     else
     	return 1;
 }
